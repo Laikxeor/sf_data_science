@@ -17,7 +17,7 @@ def random_predict(number:int=1) -> int:
     min,max = 0,100
     while True:
         count += 1
-        
+        """стандартный математический поиск"""
         predict_number = round((min+max)/2)
         if predict_number < number:
             min = predict_number
